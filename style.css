@@ -6,34 +6,43 @@ body {
     margin: 0;
 }
 
+.navbarContainer{
+    width: 100%;
+    width: 1200px;
+    margin: 0 auto;
+    height: 70px;
+}
+
 
 .navbar {
     background-color: black;
-    width: 100%;
-    height: 100px;
-    margin: 0;
-    padding: 0;
     overflow: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .navbarul{
-    text-align: center;
-    display: block;
-    padding: 14px 16px;
-    text-decoration: none;
     list-style-type: none;
+    margin: 50%;
+    padding: 0;
+}
+
+.navbarul li{
+    display: inline-block;
+    margin-right: 10px;
 }
 
 .navbarA{
-    display: logo;
     color: white;
-    text-align: center;
     text-decoration: none;
 }
 
+
+
 .logo {
-    height: 100px;
+
+    height: 80px;
     padding: 0;
     margin: 0;
-    position: absolute;
 }
