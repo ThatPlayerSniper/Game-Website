@@ -23,7 +23,7 @@ footer {
     background-color: black;
     width: 100%;
     height: 100px;
-    display: flex;
+    display: block;
 }
 
 
@@ -32,7 +32,7 @@ footer {
 .headerNav {
     padding: 0;
     margin: 0;
-    background-color: black;
+    background-color: rgb(5, 0, 3);
     width: 100%;
     height: 100px;
     display: flex;
@@ -52,27 +52,45 @@ footer {
     align-items: center;
 }
 
-.navBarNavi div a{
-    margin: 10px;
+.backgroundContainer{
+    background-color: black;
+    border-radius: 20px;
+}
+
+.navBarNavi a{
+    margin: 10px 0px 0px 0px;
     padding: 10px;
     color: white;
-    font-size: x-large;
+    font-size: xx-large;
     text-decoration: none;
 }
 
 .navBarNavi div a input {
     font-size: 20px;
-    border-radius: 10px;
+    border-radius: 30px;
     border: none;
-    height: 30px;
+    height: 20px;
     margin-left: 10px;
-    padding: 5px;
+    padding: 10px 0px 10px 10px;
 }
 
 .navBarNavi .icon {
     display: none;
     float:right;
+    background-color: orangered;
+    border-radius: 30px;
 }
+
+.navBarNavi .icon:hover{
+    background-color: white;
+    color: black;
+}
+
+.navBarNavi a:hover{
+    border-radius: 30px;
+    background: orangered;
+}
+
   
   @media screen and (max-width: 1100px ) {
     .navBarNavi a {display: none;}
@@ -89,6 +107,7 @@ footer {
       right: 0;
       top: 0;
     }
+    
     .navBarNavi.responsive a {
       float: none;
       display: block;
@@ -162,6 +181,8 @@ footer {
     padding: 10px;
 }
 
+
+
 /* responsive text */
 
 @media screen and (min-width: 601px) {
@@ -172,22 +193,42 @@ footer {
 }
   
   /* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 1100px) {
     a.text-1 {
         font-size: 30px;
         visibility: hidden;
     }
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 1100px) {
     a.text-2 {
         font-size: 30px;
         visibility: hidden;
     }
 }
 
-@media screen and (max-width: 900px) {
-    hr {
+@media screen and (max-width: 1100px) {
+    .hrPrice {
         visibility: hidden;
     }
+}
+
+.footerIcons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footerIcons img {
+    width: 5%;
+    margin: 0 20px; /* Adjust as needed */
+}
+
+.footer2 a{
+    padding: 10px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+
 }

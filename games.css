@@ -1,0 +1,139 @@
+
+/*Tipo de letra*/
+@font-face{
+    font-family: "coolvetica";
+    src: url(coolvetica/coolvetica\ rg.otf);
+}
+
+
+body {
+    background-color: black;
+    padding: 0;
+    margin: 0;
+    display: block;
+    font-family: coolvetica;
+}
+
+header {
+    padding: 0px;
+    margin: 0px 0px 0px 0px;
+    display: block;
+}
+
+footer {
+    background-color: black;
+    width: 100%;
+    height: 100px;
+    display: block;
+}
+
+
+
+/* Navigation Bar */
+.headerNav {
+    padding: 0;
+    margin: 0;
+    background-color: rgb(5, 0, 3);
+    width: 100%;
+    height: 100px;
+    display: flex;
+    position:fixed;
+    top: 0;
+    z-index: 1000; 
+}
+
+.headerNav img{
+    width: 10%;
+    height: auto;
+    padding: 0px 0px 0px 35px;
+}
+
+.navBarNavi {
+    margin: 35px 0px 0px 20%;
+    align-items: center;
+}
+
+.backgroundContainer{
+    background-color: black;
+    border-radius: 20px;
+}
+
+.navBarNavi a{
+    margin: 10px 0px 0px 0px;
+    padding: 10px;
+    color: white;
+    font-size: xx-large;
+    text-decoration: none;
+}
+
+.navBarNavi div a input {
+    font-size: 20px;
+    border-radius: 30px;
+    border: none;
+    height: 20px;
+    margin-left: 10px;
+    padding: 10px 0px 10px 10px;
+}
+
+.navBarNavi .icon {
+    display: none;
+    float:right;
+    background-color: orangered;
+    border-radius: 30px;
+}
+
+.navBarNavi .icon:hover{
+    background-color: white;
+    color: black;
+}
+
+.navBarNavi a:hover{
+    border-radius: 30px;
+    background: orangered;
+}
+
+  
+  @media screen and (max-width: 1100px ) {
+    .navBarNavi a {display: none;}
+    .navBarNavi a.icon {
+        float: right;
+        display: block;
+    }
+}
+  
+  @media screen and (max-width: 1100px  ) {
+    .navBarNavi.responsive {position: relative;}
+    .navBarNavi.responsive .icon {
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+    
+    .navBarNavi.responsive a {
+      float: none;
+      display: block;
+      text-align: left;
+    }
+}
+
+/*footer*/
+
+.footerIcons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footerIcons img {
+    width: 5%;
+    margin: 0 20px; /* Adjust as needed */
+}
+
+.footer2 a{
+    padding: 10px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+
+}
