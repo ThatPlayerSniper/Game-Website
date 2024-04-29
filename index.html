@@ -1,23 +1,23 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="index.css">
-    <link>
-    <title>Pans Gaming</title>
+    <title>🎮Pans Gaming</title>
 </head>
 <body>
     <!--HEADER NAV BAR-->
     <header>
         <div class="headerNav">
-            <img class="logo" href="index.html" src="Imagens/Logo/pans_white.svg" alt="logo">
-            <nav class="navBarNavi" id="navBarResposive">
+                <img src="Imagens/Logo/pans_white.svg" alt="logo">
+                <nav class="navBarNavi" id="navBarResposive">
                 <div class="backgroundContainer">
                     <a href="index.html">Home</a>
                     <a href="games.html">Games</a>
-                    <a href="">About</a>
-                    <a><input placeholder="search"></a>
+                    <a href="about.html">About</a>
+                    <a href="contact-us.html">Contact Us</a>
+                    <!--<a><input placeholder="search"></a>  Might change-->
                     <a href="javascript:void(0);" class="icon" onclick="myNavBar()">Menu</a>
                 </div>
             </nav>
@@ -28,7 +28,9 @@
 
     <div class="slider-container">
         <div class="SlidePart fade">
-            <img src="Imagens/HomePage/HeartsOfIronSub.jpeg" style="width:100%">
+            <a href="ShopItem1.html">
+                <img src="Imagens/HomePage/HeartsOfIronSub.jpeg" style="width:100%">
+            </a>
             <div class="textOverImage">
                 <a class="text-1">Hearts Of Iron</a><br>
                 <hr class="hrPrice">
@@ -36,7 +38,9 @@
             </div>
         </div>
         <div class="SlidePart fade">
-            <img src="Imagens/HomePage/Fallout.jpeg" style="width:100%">
+            <a href="">
+                <img src="Imagens/HomePage/Fallout.jpeg" style="width:100%">
+            </a>
             <div class="textOverImage">
                 <a class="text-1">Fallout 4</a><br>
                 <hr class="hrPrice">
@@ -44,7 +48,9 @@
             </div>
         </div>
         <div class="SlidePart fade">
-            <img src="Imagens/HomePage/EscapeFromTarkov.jpeg" style="width:100%">
+            <a href="">
+                <img src="Imagens/HomePage/EscapeFromTarkov.jpeg" style="width:100%">
+            </a>
             <div class="textOverImage">
                 <a class="text-1">Escape From Tarkov</a><br>
                 <hr class="hrPrice">
@@ -63,15 +69,16 @@
     <footer>
         <hr><br>
         <div class="footerIcons">
-            <img src="Imagens/footer/facebook.png" alt="github">
-            <img src="Imagens/footer/instagram.png" alt="github">
-            <img src="Imagens/footer/twitter.png" alt="github">
-            <img class="githubfooter" src="Imagens/footer/github(3).png" alt="github">
+            <img src="Imagens/footer/facebook.png" alt="facebook">
+            <img src="Imagens/footer/instagram.png" alt="instagram">
+            <img src="Imagens/footer/twitter.png" alt="twitter">
+            <img class="githubfooter" src="Imagens/footer/github.png" alt="github">
         </div>
         <div class="footer2">
             <a>Copyright © 2024 Pans Gaming - Todos os direitos reservados</a>
         </div>
     </footer>
-    <script src="index.js"></script>
+    <script src="carosel.js"></script>
+    <script src="responsiveNavBar.js"></script>
 </body>
 </html>

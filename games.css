@@ -12,11 +12,12 @@ body {
     margin: 0;
     display: block;
     font-family: coolvetica;
+    color: white;
 }
 
 header {
     padding: 0px;
-    margin: 0px 0px 0px 0px;
+    margin: 0px 0px 100px 0px;
     display: block;
 }
 
@@ -49,11 +50,11 @@ footer {
 }
 
 .navBarNavi {
-    margin: 35px 0px 0px 20%;
+    margin: 35px 0px 0px 22%;
     align-items: center;
 }
 
-.backgroundContainer{
+.backgroundContainer div{
     background-color: black;
     border-radius: 20px;
 }
@@ -70,9 +71,8 @@ footer {
     font-size: 20px;
     border-radius: 30px;
     border: none;
-    height: 20px;
     margin-left: 10px;
-    padding: 10px 0px 10px 10px;
+    padding: 5px 0px 5px 10px;
 }
 
 .navBarNavi .icon {
@@ -88,8 +88,7 @@ footer {
 }
 
 .navBarNavi a:hover{
-    border-radius: 30px;
-    background: orangered;
+    border-bottom: 5px solid #FF3600;
 }
 
   
@@ -114,6 +113,82 @@ footer {
       display: block;
       text-align: left;
     }
+}
+
+/* Main*/
+.StarterContainer {
+    height: 150px;
+    width: 100%;
+    display: flex;
+}
+
+.MainContainerText{
+    padding: 40px 0px 0px 45%;
+}
+
+
+.MainContainerText a{
+    font-size: xx-large;
+    border-radius: 15px;
+    padding: 10px;
+    background-color: orangered;
+}
+
+.mainContainer {
+    width: 100%;
+}
+
+.subMainContainer {
+    padding-right: 100px;
+    padding-left: 100px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.item {
+    width: calc(25% - 20px);
+    margin-bottom: 40px;
+    text-align: center;
+    background: #272727;
+    font-size: x-large;
+    position: relative; /* Added */
+}
+
+.imageContainer {
+    position: relative; /* Added */
+}
+
+.imageContainer img {
+    display: block;
+    width: 100%;
+}
+
+.textOverImage {
+    position: absolute;
+    bottom: 10px; /* Adjusted */
+    left: 10%; /* Adjusted */
+    transform: translate(-50%, -50%);
+    color: white;
+    display: block;
+    background-color: orangered;
+    padding: 5px;
+}
+
+.item img {
+    width: 100%;
+    height: auto;
+}
+
+.item :hover {
+    opacity: 0.7;
+}
+
+.textItem {
+    display: block;
+    margin-top: 10px;
+    color: white;
+    text-decoration: none;
 }
 
 /*footer*/

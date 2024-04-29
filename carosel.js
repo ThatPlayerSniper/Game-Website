@@ -1,16 +1,4 @@
-//Nav Bar resposive behavior
-
-function myNavBar() {
-    var x = document.getElementById("navBarResposive");
-    if (x.className === "navBarNavi") {
-        x.className += " responsive";
-    } else {
-        x.className = "navBarNavi";
-    }
-}
-
-
-//Carrosel Responsive
+//Carrosel
 
 let slideIndex = 0;
 showSlides();
@@ -31,4 +19,3 @@ function showSlides() {
   dots[slideIndex-1].className += " active";
   setTimeout(showSlides, 5000); // Muda a cada 5 segundos
 }
-

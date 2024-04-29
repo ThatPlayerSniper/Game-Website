@@ -1,3 +1,4 @@
+
 /*Tipo de letra*/
 @font-face{
     font-family: "coolvetica";
@@ -87,8 +88,7 @@ footer {
 }
 
 .navBarNavi a:hover{
-    border-radius: 30px;
-    background: orangered;
+    border-bottom: 5px solid #FF3600;
 }
 
   
@@ -115,103 +115,7 @@ footer {
     }
 }
 
-/*Main*/
-
-/* Carrosel */
-.slider-container {
-    display: block;
-    margin: 100px;
-}
-
-/*Dot Info circle*/
-.dotInfo {
-    margin-top: 30px;
-    text-align:center;
-}
-
-.dot {
-    height: 15px;
-    width: 15px;
-    margin: 0 2px;
-    background-color: white;
-    border-radius: 50%;
-    display: inline-block;
-    transition: background-color 0.6s ease;
-}
-
-.active {
-    background-color: orangered;
-}
-  
-  /* Fading animation */
-.fade {
-    animation-name: fade;
-    animation-duration: 1.5s;
-}
-  
-@keyframes fade {
-    from {opacity: .4} 
-    to {opacity: 1}
-}
-  
-  /* On smaller screens, decrease text size */
-@media only screen and (max-width: 300px) {
-    .text {font-size: 11px}
-}
-
-/* text over image part of carrosel*/
-.textOverImage {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: white;
-    display: block;
-}
-
-.text-1 {
-    font-size: 70px;
-}
-
-.text-2 {
-    color: white;
-    font-size: 50px;
-    border-radius: 10px;
-    background-color: orangered;
-    padding: 5px;
-}
-
-
-
-/* responsive text */
-
-@media screen and (min-width: 601px) {
-    a.text-1 {
-        font-size: 80px;
-        overflow: hidden;
-    }
-}
-  
-  /* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
-@media screen and (max-width: 1100px) {
-    a.text-1 {
-        font-size: 30px;
-        visibility: hidden;
-    }
-}
-
-@media screen and (max-width: 1100px) {
-    a.text-2 {
-        font-size: 30px;
-        visibility: hidden;
-    }
-}
-
-@media screen and (max-width: 1100px) {
-    .hrPrice {
-        visibility: hidden;
-    }
-}
+/* Main*/
 
 
 /*footer*/

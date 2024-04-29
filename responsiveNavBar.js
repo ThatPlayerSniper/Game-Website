@@ -1,5 +1,4 @@
-//Nav Bar resposive behavior
-
+//Responsive Nav bar
 function myNavBar() {
     var x = document.getElementById("navBarResposive");
     if (x.className === "navBarNavi") {
