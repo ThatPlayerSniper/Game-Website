@@ -50,13 +50,25 @@ footer {
 }
 
 .navBarNavi {
-    margin: 35px 0px 0px 22%;
+    margin: 18px 0px 0px 20%;
     align-items: center;
 }
 
 .backgroundContainer div{
     background-color: black;
     border-radius: 20px;
+}
+
+.backgroundContainer{
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    background-color: black;
+    border-radius: 30px;
 }
 
 .navBarNavi a{
@@ -78,8 +90,12 @@ footer {
 .navBarNavi .icon {
     display: none;
     float:right;
-    background-color: orangered;
+    background-color: #f39200;
     border-radius: 30px;
+    margin-top: -10px;margin-right: 0px;
+    border-left-style: solid;
+    border-left-width: 0px;
+    margin-left: 400px;
 }
 
 .navBarNavi .icon:hover{
@@ -88,12 +104,12 @@ footer {
 }
 
 .navBarNavi a:hover{
-    border-bottom: 5px solid #FF3600;
+    border-bottom: 5px solid #f9b233;
 }
 
   
   @media screen and (max-width: 1100px ) {
-    .navBarNavi a {display: none;}
+    .navBarNavi a{display: none;}
     .navBarNavi a.icon {
         float: right;
         display: block;
@@ -115,7 +131,7 @@ footer {
     }
 }
 
-/* Main*/
+/*Main*/
 
 
 /*footer*/

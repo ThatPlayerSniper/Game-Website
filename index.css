@@ -1,3 +1,4 @@
+
 /*Tipo de letra*/
 @font-face{
     font-family: "coolvetica";
@@ -49,13 +50,25 @@ footer {
 }
 
 .navBarNavi {
-    margin: 35px 0px 0px 22%;
+    margin: 18px 0px 0px 20%;
     align-items: center;
 }
 
 .backgroundContainer div{
     background-color: black;
     border-radius: 20px;
+}
+
+.backgroundContainer{
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    background-color: black;
+    border-radius: 30px;
 }
 
 .navBarNavi a{
@@ -77,8 +90,12 @@ footer {
 .navBarNavi .icon {
     display: none;
     float:right;
-    background-color: orangered;
+    background-color: #f39200;
     border-radius: 30px;
+    margin-top: -10px;margin-right: 0px;
+    border-left-style: solid;
+    border-left-width: 0px;
+    margin-left: 400px;
 }
 
 .navBarNavi .icon:hover{
@@ -87,13 +104,12 @@ footer {
 }
 
 .navBarNavi a:hover{
-    border-radius: 30px;
-    background: orangered;
+    border-bottom: 5px solid #f9b233;
 }
 
   
   @media screen and (max-width: 1100px ) {
-    .navBarNavi a {display: none;}
+    .navBarNavi a{display: none;}
     .navBarNavi a.icon {
         float: right;
         display: block;
@@ -120,13 +136,14 @@ footer {
 /* Carrosel */
 .slider-container {
     display: block;
-    margin: 100px;
+    margin: 100px 100px 0px 100px;
 }
 
 /*Dot Info circle*/
 .dotInfo {
     margin-top: 30px;
     text-align:center;
+    margin-right: 15px;
 }
 
 .dot {
@@ -160,7 +177,7 @@ footer {
 }
 
 /* text over image part of carrosel*/
-.textOverImage {
+.textOverImage1 {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -213,6 +230,98 @@ footer {
     }
 }
 
+.StarterContainer {
+    height: 150px;
+    width: 100%;
+    display: flex;
+}
+
+.MainContainerText{
+    padding: 40px 0px 0px 46%;
+}
+
+.MainContainerText div{
+    font-size: xx-large;
+    padding: 10px;
+    color: white;
+    border-bottom: 5px solid #f9b233;
+
+}
+
+.mainContainer div:active{
+    border-bottom: 5px solid #f9b233;
+}
+
+
+.mainContainer {
+    width: 100%;
+}
+
+.subMainContainer {
+    padding-right: 100px;
+    padding-left: 100px;
+    margin-left: 120px;
+    margin-right: 120px;
+    padding-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-color: rgb(34,34,34);
+}
+
+.item {
+    width: calc(25% - 20px);
+    margin-bottom: 40px;
+    text-align: center;
+    background-color: rgb(99,99,99);
+    font-size: x-large;
+    position: relative; 
+    border-radius: 5px;
+}
+
+.imageContainer {
+    position: relative;
+}
+
+.imageContainer img {
+    display: block;
+    width: 100%;
+    border-radius: 5px;
+}
+
+.textOverImage {
+    position: absolute;
+    bottom: 10px; 
+    left: 10%; 
+    transform: translate(-50%, -50%);
+    color: white;
+    display: block;
+    background-color: orangered;
+    padding: 5px;
+}
+
+.item img {
+    width: 100%;
+    height: auto;
+}
+
+.item :hover {
+    opacity: 0.7;
+}
+
+.textItem {
+    display: block;
+    margin-top: 10px;
+    color: white;
+    text-decoration: none;
+    position: relative; 
+    z-index: 2; 
+    font-size: x-large;
+}
+
+.item {
+    border-bottom: 5px solid #FF3600;
+}
 
 /*footer*/
 

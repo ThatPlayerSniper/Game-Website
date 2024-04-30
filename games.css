@@ -50,13 +50,25 @@ footer {
 }
 
 .navBarNavi {
-    margin: 35px 0px 0px 22%;
+    margin: 18px 0px 0px 20%;
     align-items: center;
 }
 
 .backgroundContainer div{
     background-color: black;
     border-radius: 20px;
+}
+
+.backgroundContainer{
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    background-color: black;
+    border-radius: 30px;
 }
 
 .navBarNavi a{
@@ -78,8 +90,12 @@ footer {
 .navBarNavi .icon {
     display: none;
     float:right;
-    background-color: orangered;
+    background-color: #f39200;
     border-radius: 30px;
+    margin-top: -10px;margin-right: 0px;
+    border-left-style: solid;
+    border-left-width: 0px;
+    margin-left: 400px;
 }
 
 .navBarNavi .icon:hover{
@@ -88,12 +104,12 @@ footer {
 }
 
 .navBarNavi a:hover{
-    border-bottom: 5px solid #FF3600;
+    border-bottom: 5px solid #f9b233;
 }
 
   
   @media screen and (max-width: 1100px ) {
-    .navBarNavi a {display: none;}
+    .navBarNavi a{display: none;}
     .navBarNavi a.icon {
         float: right;
         display: block;
@@ -123,15 +139,16 @@ footer {
 }
 
 .MainContainerText{
-    padding: 40px 0px 0px 45%;
+    padding: 40px 0px 0px 46%;
 }
 
 
-.MainContainerText a{
+.MainContainerText div{
     font-size: xx-large;
-    border-radius: 15px;
     padding: 10px;
-    background-color: orangered;
+    color: white;
+    border-bottom: 5px solid #f9b233;
+
 }
 
 .mainContainer {
@@ -141,33 +158,39 @@ footer {
 .subMainContainer {
     padding-right: 100px;
     padding-left: 100px;
+    margin-left: 120px;
+    margin-right: 120px;
+    padding-top: 40px;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    background-color: rgb(34,34,34);
 }
 
 .item {
     width: calc(25% - 20px);
     margin-bottom: 40px;
     text-align: center;
-    background: #272727;
+    background-color: rgb(99,99,99);
     font-size: x-large;
-    position: relative; /* Added */
+    position: relative; 
+    border-radius: 5px;
 }
 
 .imageContainer {
-    position: relative; /* Added */
+    position: relative;
 }
 
 .imageContainer img {
     display: block;
     width: 100%;
+    border-radius: 5px;
 }
 
 .textOverImage {
     position: absolute;
-    bottom: 10px; /* Adjusted */
-    left: 10%; /* Adjusted */
+    bottom: 10px; 
+    left: 10%; 
     transform: translate(-50%, -50%);
     color: white;
     display: block;
@@ -189,7 +212,11 @@ footer {
     margin-top: 10px;
     color: white;
     text-decoration: none;
+    position: relative; 
+    z-index: 2; 
+    font-size: x-large;
 }
+
 
 /*footer*/
 
