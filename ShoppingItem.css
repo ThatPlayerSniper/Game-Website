@@ -107,6 +107,15 @@ footer {
     border-bottom: 5px solid #f9b233;
 }
 
+.carrinho img{
+    background-color: #f9b233;
+    border-radius: 30px;
+    width: 6%;
+    height: 80%;
+    padding-left: 0px;
+    margin-left : 200px;
+}
+
   
   @media screen and (max-width: 1100px ) {
     .navBarNavi a{display: none;}
@@ -135,7 +144,7 @@ footer {
 
 
 .StarterContainer {
-    height: 700px;
+    height: 2400px;
     width: 100%;
     display: flex;
 }
@@ -148,12 +157,11 @@ footer {
     margin-top: 20px;
     padding-right: 120px;
     margin-right: 120px;
-    margin-left: 120px;
+    margin-left: 140px;
     padding-left: 120px;
     padding-top: 90px;
-    height: 600px; /*para ajustar o tamanho do main*/
+    height: 2200px; /*para ajustar o tamanho do main*/
     background-color: rgb(34,34,34);
-    border-radius: 10px;
 }
 
 .InfoContainer {
@@ -163,7 +171,7 @@ footer {
     position: relative;
     border-radius: 5px;
     display: flex;
-    border-radius: 20px;
+    border: 5px solid orangered; 
 }
 
 .subInfoContainer {
@@ -230,6 +238,117 @@ footer {
     border-radius: 0px;
     color: white;
 }
+
+.descriptionContainer{
+    margin-top: 50px;
+    padding: -10px;
+    background-color: rgb(99,99,99);
+    display: block;
+    border-radius: 10px;
+    height: 320px;
+}
+
+.textDescript {
+    padding: 20px;
+    font-size: large;
+}
+
+.descriptionContainer div {
+    height: 200px;
+}
+
+.youtubeContainer{
+    display: flex;
+    align-items: center;
+}
+
+.youtubeContainer{
+    margin-top: 50px;
+    margin-left: 200px;
+}
+
+.youtubeContainer div iframe{
+    width: 700px; 
+    height: 450px;
+}
+
+.itemMainContainer {
+    padding-right: 20px;
+    padding-left: 20px;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding-top: 80px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-color: rgb(34,34,34);
+}
+
+.item {
+    width: calc(400px - 20px);
+    margin-bottom: 40px;
+    text-align: center;
+    background-color: rgb(99,99,99);
+    font-size: x-large;
+    position: relative; 
+    border-radius: 5px;
+}
+
+.imageContainer {
+    position: relative;
+}
+
+.imageContainer img {
+    display: block;
+    width: 100%;
+    border-radius: 5px;
+}
+
+.textOverImage {
+    position: absolute;
+    bottom: 10px; 
+    left: 10%; 
+    transform: translate(-50%, -50%);
+    color: white;
+    display: block;
+    background-color: orangered;
+    padding: 5px;
+}
+
+.item img {
+    width: 100%;
+    height: auto;
+}
+
+.textItem {
+    display: block;
+    margin-top: 10px;
+    color: white;
+    text-decoration: none;
+    position: relative; 
+    z-index: 2; 
+    font-size: x-large;
+}
+
+.Specs a {
+    font-size: x-large;
+}
+
+.SpecsContainer {
+    margin-top: 50px;
+    padding: -10px;
+    background-color: rgb(99,99,99);
+    display: block;
+    border-radius: 10px;
+    height: 200px;
+    
+}
+
+.SpecsContainer div p{
+    padding: 20px;
+    
+}
+
 
 /*footer*/
 
