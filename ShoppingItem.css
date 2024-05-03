@@ -144,7 +144,7 @@ footer {
 
 
 .StarterContainer {
-    height: 2400px;
+    height: 2800px;
     width: 100%;
     display: flex;
 }
@@ -160,7 +160,7 @@ footer {
     margin-left: 140px;
     padding-left: 120px;
     padding-top: 90px;
-    height: 2200px; /*para ajustar o tamanho do main*/
+    height: 2600px; /*para ajustar o tamanho do main*/
     background-color: rgb(34,34,34);
 }
 
@@ -339,14 +339,84 @@ footer {
     padding: -10px;
     background-color: rgb(99,99,99);
     display: block;
-    border-radius: 10px;
-    height: 200px;
-    
+    border-radius: 10px;    
 }
 
 .SpecsContainer div p{
     padding: 20px;
-    
+    font-size: x-large;
+}
+
+.recomendados {
+    margin-top: 40px;
+    font-size: xx-large;
+    border-bottom: 5px solid #f9b233;
+}
+
+.endrecomendados {
+    border-bottom: 5px solid #f9b233;
+}
+
+.subMainContainer2 {
+    padding-right: 50px;
+    padding-left: 50px;
+    padding-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-color: rgb(34,34,34);
+}
+
+
+
+.item2 {
+    width: calc(25% - 20px);
+    margin-bottom: 40px;
+    text-align: center;
+    background-color: rgb(99,99,99);
+    font-size: x-large;
+    position: relative; 
+    border-radius: 5px;
+}
+
+.imageContainer2 {
+    position: relative;
+}
+
+.imageContainer2 img {
+    display: block;
+    width: 100%;
+    border-radius: 5px;
+}
+
+.textOverImage2 {
+    position: absolute;
+    bottom: 10px; 
+    left: 10%; 
+    transform: translate(-50%, -50%);
+    color: white;
+    display: block;
+    background-color: orangered;
+    padding: 5px;
+}
+
+.item2 img {
+    width: 100%;
+    height: auto;
+}
+
+.item2 :hover {
+    opacity: 0.7;
+}
+
+.textItem2 {
+    display: block;
+    margin-top: 10px;
+    color: white;
+    text-decoration: none;
+    position: relative; 
+    z-index: 2; 
+    font-size: x-large;
 }
 
 

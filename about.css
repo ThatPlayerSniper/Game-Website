@@ -133,6 +133,29 @@ footer {
 
 /*Main*/
 
+.StarterContainer {
+    height: 300px;
+    width: 100%;
+    display: flex;
+}
+
+.MainContainerText{
+    padding: 40px 0px 0px 46%;
+}
+
+
+.MainContainerText div{
+    font-size: 100px;
+    padding: 10px;
+    color: white;
+    border-bottom: 5px solid #f9b233;
+
+}
+
+.mainContainer {
+    width: 100%;
+}
+
 
 /*footer*/
 

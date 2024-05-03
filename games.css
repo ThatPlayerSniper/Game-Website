@@ -55,7 +55,6 @@ footer {
 }
 
 .backgroundContainer div{
-    background-color: black;
     border-radius: 20px;
 }
 
@@ -90,17 +89,11 @@ footer {
 .navBarNavi .icon {
     display: none;
     float:right;
-    background-color: #f39200;
     border-radius: 30px;
     margin-top: -10px;margin-right: 0px;
     border-left-style: solid;
     border-left-width: 0px;
     margin-left: 400px;
-}
-
-.navBarNavi .icon:hover{
-    background-color: white;
-    color: black;
 }
 
 .navBarNavi a:hover{

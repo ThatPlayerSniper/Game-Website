@@ -230,6 +230,11 @@ footer {
     }
 }
 
+.textPopular{
+    border-bottom: 5px solid #FF3600;
+}
+
+
 .StarterContainer {
     height: 150px;
     width: 100%;
@@ -237,19 +242,13 @@ footer {
 }
 
 .MainContainerText{
-    padding: 40px 0px 0px 46%;
+    padding: 40px 0px 0px 700px;
 }
 
 .MainContainerText div{
     font-size: xx-large;
     padding: 10px;
     color: white;
-    border-bottom: 5px solid #f9b233;
-
-}
-
-.mainContainer div:active{
-    border-bottom: 5px solid #f9b233;
 }
 
 
