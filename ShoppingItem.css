@@ -415,7 +415,7 @@ footer {
 
 .footerIcons a img {
     width: 5%;
-    margin: 0 20px; /* Adjust as needed */
+    margin: 0 20px; 
 }
 
 .footerIcons {
@@ -425,19 +425,19 @@ footer {
 }
 
 .footerIcons a {
-    margin: 0 10px; /* Adjust as needed */
+    margin: 0 10px; 
 }
 
 .footerIcons a img {
-    width: 80px; /* Adjust size as needed */
+    width: 80px; 
 }
 
 .footerIcons a img:hover {
-    opacity: 0.7; /* Change opacity on hover as desired */
+    opacity: 0.7; 
 }
 
 .footerIcons a:last-child {
-    margin-right: 0; /* Remove right margin for the last icon */
+    margin-right: 0; 
 }
 
 .footer2 a{
