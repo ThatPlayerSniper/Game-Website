@@ -31,6 +31,7 @@ footer {
 
 
 /* Navigation Bar */
+/* Navigation Bar */
 .headerNav {
     padding: 0;
     margin: 0;
@@ -55,7 +56,6 @@ footer {
 }
 
 .backgroundContainer div{
-    background-color: black;
     border-radius: 20px;
 }
 
@@ -90,17 +90,11 @@ footer {
 .navBarNavi .icon {
     display: none;
     float:right;
-    background-color: #f39200;
     border-radius: 30px;
     margin-top: -10px;margin-right: 0px;
     border-left-style: solid;
     border-left-width: 0px;
     margin-left: 400px;
-}
-
-.navBarNavi .icon:hover{
-    background-color: white;
-    color: black;
 }
 
 .navBarNavi a:hover{
@@ -134,28 +128,88 @@ footer {
 /*Main*/
 
 .StarterContainer {
-    height: 300px;
+    height: 740px;
     width: 100%;
     display: flex;
-}
-
-.MainContainerText{
-    padding: 40px 0px 0px 46%;
-}
-
-
-.MainContainerText div{
-    font-size: 100px;
-    padding: 10px;
-    color: white;
-    border-bottom: 5px solid #f9b233;
-
 }
 
 .mainContainer {
     width: 100%;
 }
 
+.subMainContainer {
+    margin-top: 20px;
+    padding-right: 120px;
+    margin-right: 120px;
+    margin-left: 140px;
+    padding-left: 120px;
+    padding-top: 90px;
+    height: 600px; /*para ajustar o tamanho do main*/
+    background-color: rgb(34,34,34);
+}
+
+.InfoContainer {
+    width: 1000px;
+    background-color: rgb(99,99,99);
+    font-size: x-large;
+    position: relative;
+    border-radius: 5px;
+    display: flex;
+}
+
+.subInfoContainer {
+    position: relative;
+    flex: 1; 
+}
+
+.subInfoContainer img {
+    display: block;
+    width: 400px;
+    border-radius: 5px;
+}
+
+.textContainer {
+    flex: 1;
+    padding: 10px;
+    margin: 20px 20px;
+    border-radius: 10px;
+    border: 10px solid #f9b233; 
+}
+
+.price{
+    font-size: 50px;
+    border-bottom: 5px solid orangered; 
+}
+
+.descritext {
+    font-size: 30px;
+    border-bottom: 5px solid orangered; 
+}
+
+.musicButtons {
+    margin-top: 100px;
+}
+
+
+.musicbutton {
+    display: inline-block;
+    padding: 15px 25px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    background-color: rgb(5, 0, 3);
+    border: none;
+    border-radius: 25px; /* Adjust border-radius for rounded corners */
+    transition: background-color 0.3s, color 0.3s; /* Add transition for smooth hover effect */
+    font-size: 16px; /* Adjust font size */
+    cursor: pointer;
+    margin-top: 30px;
+}
+
+.musicbutton:hover {
+    background-color: #f39200; /* Change background color on hover */
+    color: black; /* Change text color on hover */
+}
 
 /*footer*/
 
@@ -165,13 +219,35 @@ footer {
     align-items: center;
 }
 
-.footerIcons img {
+.footerIcons a img {
     width: 5%;
     margin: 0 20px; 
 }
 
+.footerIcons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footerIcons a {
+    margin: 0 10px; 
+}
+
+.footerIcons a img {
+    width: 80px; 
+}
+
+.footerIcons a img:hover {
+    opacity: 0.7; 
+}
+
+.footerIcons a:last-child {
+    margin-right: 0; 
+}
+
 .footer2 a{
-    padding: 20px 0px;
+    padding: 10px 0px;
     display: flex;
     justify-content: center;
     align-items: center;

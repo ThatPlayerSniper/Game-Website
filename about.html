@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="about.css">
     <link>
-    <title>Pans Gaming</title>
+    <title>🎮Pans Gaming</title>
 </head>
 <body>
     <!--HEADER NAV BAR-->
@@ -27,13 +27,44 @@
 
     <!-- Main -->
 
+    <audio id="myAudio">
+        <source src="Song/Minecraft.mp3" type="audio/mpeg">
+      </audio>
+
     <div class="StarterContainer">
-        <div class="MainContainerText">
-            <div class="textPopular">About me</div>
-        </div>
-    </div>
-    <div class="mainContainer">
-        <div class="subMainContainer">
+        <div class="mainContainer">
+            <div class="subMainContainer">
+                <div class="InfoContainer">
+                    <div class="subInfoContainer">
+                        <img src="Imagens/MeGhost2.jpg">
+                    </div>
+                    <div class="musicButtons">
+                        <button class="musicbutton" onclick="playAudio()" type="button"><a>Play</a></button><br>
+                        <button class="musicbutton" onclick="pauseAudio()" type="button"><a>Stop</a></button> 
+                    </div>
+                    <div class="textContainer">
+                        <a class="price">About me</a>
+                        <br>
+                        <br>
+                        <div class="ajustcontainer">
+                            <a>Nome: Tomás</a>
+                            <br>
+                            <a>Idade: 19 anos</a>
+                            <br>
+                            <a>Ocupação: Estudante</a>
+                            <br>
+                            <br>
+                            <a class="descritext">Mais sobre mim:</a>
+                            <p>
+                               Sou um estudante de engenharia informatica, 
+                               na universidade de castelo branco de tecnologia no 
+                               primeiro ano da licenciatura, e crei este website de jogos 
+                               para o meu trabalho final de "Web". 
+                            </p>
+                        </div>                
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 
@@ -41,15 +72,24 @@
     <footer>
         <hr><br>
         <div class="footerIcons">
-            <img src="Imagens/footer/facebook.png" alt="facebook">
-            <img src="Imagens/footer/instagram.png" alt="instagram">
-            <img src="Imagens/footer/twitter.png" alt="twitter">
-            <img class="githubfooter" src="Imagens/footer/github.png" alt="github">
+            <a href="https://www.facebook.com/ipcb.pt/?locale=pt_PT">
+                <img src="Imagens/footer/facebook.png" alt="facebook">
+            </a>
+            <a href="https://www.instagram.com/ipcb.pt/">
+                <img src="Imagens/footer/instagram.png" alt="instagram">
+            </a>
+            <a href="https://twitter.com/IPCBoficial">
+                <img src="Imagens/footer/twitter.png" alt="twitter">
+            </a>
+            <a href="https://github.com/ThatPlayerSniper">
+                <img src="Imagens/footer/github.png" alt="github">
+            </a>
         </div>
         <div class="footer2">
             <a>Copyright © 2024 Pans Gaming - Todos os direitos reservados</a>
         </div>
     </footer>
+    <script src="minecraft.js"></script>
     <script src="responsiveNavBar.js"></script>
 </body>
 </html>

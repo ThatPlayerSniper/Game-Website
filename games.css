@@ -219,9 +219,31 @@ footer {
     align-items: center;
 }
 
-.footerIcons img {
+.footerIcons a img {
     width: 5%;
     margin: 0 20px; /* Adjust as needed */
+}
+
+.footerIcons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footerIcons a {
+    margin: 0 10px; /* Adjust as needed */
+}
+
+.footerIcons a img {
+    width: 80px; /* Adjust size as needed */
+}
+
+.footerIcons a img:hover {
+    opacity: 0.7; /* Change opacity on hover as desired */
+}
+
+.footerIcons a:last-child {
+    margin-right: 0; /* Remove right margin for the last icon */
 }
 
 .footer2 a{
